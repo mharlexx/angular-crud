@@ -1,0 +1,13 @@
+<h2>Add / Edit Item</h2>
+<form (ngSubmit)="addItem()">
+  <label>
+    Name:
+    <input [(ngModel)]="newItem.name" name="name" required />
+  </label>
+  <label>
+    Description:
+    <input [(ngModel)]="newItem.description" name="description" required />
+  </label>
+  <button type="submit">Save</button>
+  <button type="button" (click)="resetForm()">Reset</button>
+</form>
