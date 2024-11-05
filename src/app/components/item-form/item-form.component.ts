@@ -34,6 +34,6 @@ export class ItemFormComponent {
       this.newItem = { ...item }; // Set the newItem to the item being edited
     } else {
       this.resetForm(); // Reset if there's no item
-    }
+    } //Test
   }
 }
